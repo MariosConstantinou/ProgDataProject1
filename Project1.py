@@ -24,7 +24,7 @@ def menu():
     while True:
         # Display menu options and ask user to choose a menu item
         print("MENU")
-        choice = displayMenu(menuItems)
+        choice = displayMenu.displayMenu(menuItems)
         # Menu item chosen
         # ------------------------------------------------------------------
         # 1. Enter name
