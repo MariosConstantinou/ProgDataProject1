@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import inputNumber
+
 def displayMenu(options):
 # DISPLAYMENU Displays a menu of options, ask the user to choose an item
 # and returns the number of the menu item chosen.

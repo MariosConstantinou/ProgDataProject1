@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def inputNumber(prompt):
 # INPUTNUMBER Prompts user to input a number
 #
