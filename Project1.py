@@ -6,6 +6,7 @@ import displayMenu
 
 def load_data(dataname):
     global data
+    global data2
 
     try:
         data = pd.read_csv(dataname,delim_whitespace=True)
