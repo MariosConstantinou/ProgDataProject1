@@ -3,14 +3,12 @@ import pandas as pd
 import inputNumber
 import displayMenu
 
-#global data
-
 
 def load_data(dataname):
     global data
 
     try:
-        data = pd.read_csv(dataname)
+        data = pd.read_csv(dataname,delim_whitespace=True)
         print("File loaded succesfully!")
     except OSError as e:
         print("\n404 FILE NOT FOUND! TRY ANOTHER FILENAME\n")
